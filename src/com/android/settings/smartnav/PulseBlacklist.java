@@ -22,15 +22,16 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceGroup;
-import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceGroup;
+import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
